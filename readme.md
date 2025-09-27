@@ -4,10 +4,14 @@
 
 ## 用法
 
-```shell
-python vlt_zh.py [vlt 文件路径或所在目录] [字体文件路径]
-```
+1，下载脚本
+下载vlt_zh.py  
+下载FusionX2_B_VLC.vlt 皮肤，这两个都放在桌面
+下载字体MiSans字体：https://hyperos.mi.com/font/zh/details/sc/
+安装后文件路径：C:\Users\Administrator\AppData\Local\Microsoft\Windows\Fonts\MiSans-Bold.ttf
 
-## 说明
+2，运行脚本
+python vlt_zh.py FusionX2_B_VLC.vlt "C:\Users\Administrator\AppData\Local\Microsoft\Windows\Fonts\MiSans-Bold.ttf"
 
-vlt 文件为 tgz 或 zip 格式的压缩包，包含一个 theme.xml 索引文件和字体图片等资源文件。只需将字体文件放入文件夹内，替换 theme.xml 中的字体文件路径，重新打包即可。
+VLC下载地址：https://www.videolan.org/
+播放器皮肤：：https://pan.xunlei.com/s/VOYbWwZ9BWLBWjqZOCIHdW6uA1  提取码：c8qr
